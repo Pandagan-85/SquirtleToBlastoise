@@ -1,0 +1,32 @@
+.clickable {
+  transition: scale 0.05s ease-out;
+  cursor: pointer;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.nomePokemon {
+  font-size: 3rem;
+  color: #83c0d6;
+}
+.reset {
+  position: absolute;
+
+  top: 250px;
+  right: 30%;
+  background-color: blue;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
